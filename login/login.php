@@ -61,7 +61,7 @@ if (isset($_SESSION['username']) and !empty($_SESSION['username'])){
           <li><a class="nav-link scrollto" href="../index.php">Home</a></li>
           <li><a class="nav-link scrollto" href="../about.php">About</a></li>
           <li><a class="nav-link scrollto" href="../statistics.php">Statistics</a></li>
-          <li><a target="_blank" href="https://github.com/a-na-s/Chat">Source</a></li>
+          <li><a target="_blank" href="https://github.com/AnasDB/Chat">Source</a></li>
           <li><a class="nav-link scrollto" href="../contact.php">Contact</a></li>
           <li><a class="nav-link scrollto " href="signup.php">Sign-up</a></li>
           <li><a class="getstarted scrollto active" href="login.php">Login</a></li>
