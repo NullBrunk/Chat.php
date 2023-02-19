@@ -3,6 +3,16 @@
 # Chat
 ![webchat](https://user-images.githubusercontent.com/125673909/219771897-f0eb2551-932f-40db-8924-9d56f896d725.png)
 
+<br/>
+
+![GitHub top language](https://img.shields.io/github/languages/top/AnasDB/Chat?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/AnasDB/Chat?style=for-the-badge)
+![repo size](https://img.shields.io/github/repo-size/AnasDB/Chat?style=for-the-badge)
+
+
+![image](https://user-images.githubusercontent.com/106782577/210120122-6b1807a0-55ba-4756-b397-b7a7050b7c3d.png)
+
+
   
 </div>
 
@@ -11,7 +21,7 @@
 
 go to /var/www/html OR /srv/http
 ```bash
-git clone https://github.com/A-na-s/Chat
+git clone https://github.com/AnasDB/Chat
 mv Chat/* .
 rm -r Chat
 ```
