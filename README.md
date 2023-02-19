@@ -1,7 +1,6 @@
 <div align="center">
   
 # Chat
-![webchat](https://user-images.githubusercontent.com/125673909/219771897-f0eb2551-932f-40db-8924-9d56f896d725.png)
 
 <br/>
 
@@ -10,7 +9,7 @@
 ![repo size](https://img.shields.io/github/repo-size/AnasDB/Chat?style=for-the-badge)
 
 
-![image](https://user-images.githubusercontent.com/106782577/210120122-6b1807a0-55ba-4756-b397-b7a7050b7c3d.png)
+![webchat](https://user-images.githubusercontent.com/125673909/219771897-f0eb2551-932f-40db-8924-9d56f896d725.png)
 
 
   
