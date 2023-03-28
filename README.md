@@ -20,7 +20,7 @@
 
 go to /var/www/html OR /srv/http
 ```bash
-git clone https://github.com/AnasDB/Chat
+git clone https://github.com/NullBrunk/Chat
 mv Chat/* .
 rm -r Chat
 ```
