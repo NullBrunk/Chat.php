@@ -14,7 +14,7 @@
 # Chat
 ![image](https://user-images.githubusercontent.com/125673909/233087679-196e4f1e-285b-4e73-a52e-00074620cf6b.png)
 
-# Stats page
+# Stats page 
 ![image](https://user-images.githubusercontent.com/125673909/233104552-cc96740a-f7de-424c-8138-164b3c7a38b0.png)
 
 # About page
