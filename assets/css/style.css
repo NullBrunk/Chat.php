@@ -785,5 +785,32 @@ section {
   color: #848484;
 }
 
+.chatmenu {
+  font-size: 20px; 
+  outline:none !important ;
+  border: #0f0f0f 0px solid; 
+  height: 10px;
+  width: 83%;
+  padding: 2% 2% 2% 2%;
+  overflow: scroll;
+  background-color: #e0e0ef;
+}
 
+.thechat{
+  border-top-right-radius: 5px; 
+  border-top-left-radius: 5px; 
+  overflow: auto !important; 
+  font-size: 17px; 
+  margin-top: 7%; 
+  margin-left: 3%; 
+  margin-right: 3%;
+  border: #0f0f0f 1px solid; 
+  height: 36em;
+  width: 94%; 
+  padding: 0% 2% 2% 2%; 
+  background-color: #e0e0ef;
+}
 
+.thechat::-webkit-scrollbar{
+  display: none;
+}

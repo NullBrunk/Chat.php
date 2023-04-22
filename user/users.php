@@ -98,7 +98,7 @@ $("#reload").load(window.location.href + " #reload" )
 
 
 <div div="reload" id='reload'>
-<fieldset style="border-top-right-radius: 5px; border-top-left-radius: 5px; overflow: hidden !important; font-size: 17px; margin-top: 7%; margin-left: 3%; margin-right: 3%;border: #0f0f0f 1px solid; height: 36em;width: 94%; padding: 0% 2% 2% 2%; background-color: #e0e0ef;"> 
+<fieldset class="thechat"> 
 <pre style="color: #000;">
 
 
@@ -157,7 +157,7 @@ $text</span><br>");
 </fieldset>
 <form method="post">
     <p  style="border-top: 0px !important; font-size: 17px; margin-left: 3%; margin-right: 3%;border: #0f0f0f 1px solid; height: 60px;width: 94%;background-color: #e0e0ef;">
-        <input type="text" name="text" id="text" placeholder="Send a message" style="font-size: 20px; outline:none !important ;border: #0f0f0f 0px solid; height: 10px;width: 83%;padding: 2% 2% 2% 2%;overflow: scroll;background-color: #e0e0ef;">
+        <input type="text" name="text" class="chatmenu" id="text" placeholder="Send a message">
         <button style="background-color: #4154f1;color: white;border: 1px #4154f1 solid;border-radius: 5px;width: 8%;height: 85%;margin-top: 4px;"><i class="bi bi-arrow-clockwise"></i></button>
         <button type="submit" style="background-color: #4154f1;color: white;border: 1px #4154f1 solid;border-radius: 5px;width: 8%;height: 85%;margin-top: 4px;"><i class="bi bi-send-fill"></i></button>
     </p> 
