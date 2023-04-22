@@ -56,7 +56,7 @@ else if($_SERVER['REQUEST_METHOD'] == 'PUT'){
 
 else {
     echo('{
-        "error": "Supported requests: GET, PUT, POST, DELETE"
+        "error": "Supported methods: GET, PUT, POST, DELETE"
     }');
 }
 
