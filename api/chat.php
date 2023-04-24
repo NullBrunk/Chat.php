@@ -31,7 +31,7 @@ echo("{
 }
 
 
-else if($_SERVER['REQUEST_METHOD'] == 'DELETE'){
+else if($_SERVER['REQUEST_METHOD'] == 'GET'){
     if(!empty($_GET['user']) && !empty($_GET['password']) && !empty($_GET['id']))
     {
         // Check if the user exists
