@@ -52,7 +52,7 @@
           <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
           <li><a class="nav-link scrollto" href="about.php">About</a></li>
           <li><a class="nav-link scrollto" href="statistics.php">Statistics</a></li>
-          <li><a target="_blank" href="https://github.com/NullBrunk/Chat">Source</a></li>
+          <li><a target="_blank" href="https://github.com/NullBrunk/PHPChat">Source</a></li>
           <li><a class="nav-link scrollto" href="login/signup.php">Sign-up</a></li>
           <li><a class="getstarted scrollto" href="login/login.php">Login</a></li>
         </ul>
