@@ -37,8 +37,7 @@ if (!isset($_SESSION['username']) and empty($_SESSION['username'])){
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
 
-  <script src="../assets/js/axios.min.js"></script>
-  <script src="../assets/js/jquery.min.js.js"></script>
+
   <!-- =======================================================
   * Template Name: FlexStart - v1.12.0
   * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
@@ -97,7 +96,7 @@ window.location.href = '/reload.php';
 </script>
 
 
-<div div="reload" id='reload'>
+<div>
 <fieldset class="thechat"> 
 <pre style="color: #000;">
 
@@ -107,41 +106,32 @@ window.location.href = '/reload.php';
 include_once("../includes/db-config.php");
 $pdo = new PDO($DB_DSN, $DB_USER, $DB_PASS);
 
-$msgs = [];
+$add = "";
 $request = $pdo -> query("SELECT * FROM `chat`");
 
-while($req = $request->fetch()){
+foreach($request->fetchall() as $req){
+  
 
-  $msgs[$req['id']] = [
-    'id' => $req['id'],
-    'author' => $req['author'],
-    "msg" => $req['msg'],
-    "icon" => $req['icon']
-  ];
-}
+  $id = $req['id'];
+  $icon = $req['icon'];
+  $author = $req['author'];
+  $text = $req['msg'];
 
-$precedentuser = "";
-$add = "";
 
-foreach($msgs as $msg){ 
- 
-  if($msg['author'] == $_SESSION['username']){ $color = "#4154f1"; } else { $color = "#03afed"; } 
-
-  $id = $msg['id'];
-  $icon = $msg['icon']; 
-  $author = $msg['author']; 
-  $text = $msg['msg']; 
-
+  
+  if($req['author'] == $_SESSION['username']){ $color = "#4154f1"; } else { $color = "#03afed"; } 
+  
   if(!empty($icon)){
     if($author == $_SESSION['username'] or $_SESSION['isadmin'] == '1' ){
-      $exec = "deletemsg(\"$id\", \"".$_SESSION['username']."\", \"".$_SESSION['password']."\")";
-
+      $exec = "window.location.href = \"/api/chat.php?id=" . $id . "  \" ";
+  
       $text .= ' <button style="background-color: #e0e0ef;border: none;" onclick=\'' . $exec . '\'><i style="color: #4154f1;" class="bi bi-trash2-fill"></i></button>' ; //. $text;
     }
 
-
+    
     if($author == $precedentuser){
       echo("<span>" . $text . '<br>' . '<span>');
+
     }
     else {
       echo("<span>" . $add . "<strong style=\"color: $color;\"><i class=\"$icon\"></i></a> $author: </strong>  
@@ -150,12 +140,16 @@ $text</span><br>");
   }
   $add = "<br>";
   $precedentuser = $author;
+
 }
+
+
+
 ?></pre>
 
 
 </fieldset>
-<form method="post">
+<form method="post" action="../api/chat.php">
     <p  style="border-top: 0px !important; font-size: 17px; margin-left: 3%; margin-right: 3%;border: #0f0f0f 1px solid; height: 60px;width: 94%;background-color: #e0e0ef;">
         <input type="text" name="text" class="chatmenu" id="text" placeholder="Send a message">
         <button style="background-color: #4154f1;color: white;border: 1px #4154f1 solid;border-radius: 5px;width: 8%;height: 85%;margin-top: 4px;"><i class="bi bi-arrow-clockwise"></i></button>
@@ -164,42 +158,7 @@ $text</span><br>");
 </form>
 </div>
 
-<script>
-function addmsg(author, message, icon){
-  axios.post('../api/chat.php', {
-      author: author,
-      msg: message,
-      icon: icon
 
-    })
-    .then(function (response) {
-      console.log(response);
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
-}
-</script>
-
-<?php
-if(isset($_POST['text']) and !empty($_POST['text'])){
-
-    if ($_SESSION['isadmin'] == '1'){
-        $icon = "chaticon bi bi-person-fill-up";
-    }
-    else
-    {
-        $icon = "chaticon bi bi-person-fill";
-    }
-
-    $txt = htmlspecialchars($_POST['text']);
-    $n = $_SESSION['username'];
-
-    echo("<script>addmsg(\"$n\", \"$txt\", \"$icon\")</script>"); 
-    echo("<script>window.location.href = '/reload.php'; </script>");
-
-}
-?>
 
   </main><!-- End #main -->
 
