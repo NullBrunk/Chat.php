@@ -150,7 +150,7 @@ $text</span><br>");
 
 </fieldset>
 <form method="post" action="../api/chat.php">
-    <p  style="border-top: 0px !important; font-size: 17px; margin-left: 3%; margin-right: 3%;border: #0f0f0f 1px solid; height: 60px;width: 94%;background-color: #e0e0ef;">
+    <p  style="border-top: 0px !important; font-size: 17px; margin-left: 3%; margin-right: 3%;border: #0f0f0f 1px solid; height: 61px;width: 94%;background-color: #e0e0ef;">
         <input type="text" name="text" class="chatmenu" id="text" placeholder="Send a message">
         <button style="background-color: #4154f1;color: white;border: 1px #4154f1 solid;border-radius: 5px;width: 8%;height: 85%;margin-top: 4px;"><i class="bi bi-arrow-clockwise"></i></button>
         <button type="submit" style="background-color: #4154f1;color: white;border: 1px #4154f1 solid;border-radius: 5px;width: 8%;height: 85%;margin-top: 4px;"><i class="bi bi-send-fill"></i></button>
