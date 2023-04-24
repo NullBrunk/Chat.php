@@ -9,7 +9,7 @@
 ![repo size](https://img.shields.io/github/repo-size/NullBrunk/PHPChat?style=for-the-badge)
  
  https://brunkchat.000webhostapp.com/ 
- **CREDS** : `[ admin : admin ]` `[ user : user ]` 
+
 
 ![webchat](https://user-images.githubusercontent.com/125673909/219771897-f0eb2551-932f-40db-8924-9d56f896d725.png)
 
