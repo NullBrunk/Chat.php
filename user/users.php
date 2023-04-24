@@ -92,7 +92,7 @@ function deletemsg(id, user, pass){
       }
 )
 
-$("#reload").load(window.location.href + " #reload" )
+window.location.href = '/reload.php';
 }
 </script>
 
@@ -196,7 +196,7 @@ if(isset($_POST['text']) and !empty($_POST['text'])){
     $n = $_SESSION['username'];
 
     echo("<script>addmsg('$n', '$txt', '$icon')</script>"); 
-    echo('<script> $("#reload").load(window.location.href + " #reload" ); </script>');
+    echo("<script>window.location.href = '/reload.php'; </script>");
 
 }
 ?>
