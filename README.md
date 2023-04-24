@@ -3,7 +3,8 @@
 # PHPChat 
 
 https://brunkchat.000webhostapp.com/ 
-<img src="https://github-readme-stats.vercel.app/api?username=NullBrunk&hide_border=true&theme=aura&show_icons=true" />
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nullbrunk&hide_progress=true)](https://github.com/anuraghazra/github-readme-stats)
+
 <br/> 
 
 ![GitHub top language](https://img.shields.io/github/languages/top/NullBrunk/PHPChat?style=for-the-badge)
