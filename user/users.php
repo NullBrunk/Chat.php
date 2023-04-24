@@ -86,7 +86,7 @@ if (!isset($_SESSION['username']) and empty($_SESSION['username'])){
   <main>
 <script>
 function deletemsg(id, user, pass){
-  axios.delete("../api/chat.php?id=" + id + "&user=" + user + "&password=" + pass).then( 
+  axios.get("../api/chat.php?id=" + id + "&user=" + user + "&password=" + pass).then( 
       response => {
           console.log(response.data);
       }
