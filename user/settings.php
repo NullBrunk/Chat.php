@@ -106,12 +106,9 @@ if (!isset($_SESSION['username']) and empty($_SESSION['username'])){
      
 
           <div class="col-lg-6">Change password :
-            <form method="post" class="php-email-form">
-              <div class="row gy-4">
 
-              <div class="col-md-12">
-                  <input type="password" class="form-control" name="opass" placeholder="Old Password" required>
-                </div>
+            <form method="get" action="../api/users.php" class="php-email-form">
+              <div class="row gy-4">
 
                 <div class="col-md-12">
                   <input type="password" class="form-control" name="npass" placeholder="New password" required>
@@ -126,29 +123,7 @@ if (!isset($_SESSION['username']) and empty($_SESSION['username'])){
 
               </div>
             </form>
-<script>
-function changepass(oldpass, newpass, username){
-  axios.put('../api/users.php?username=' + username + '&pass=' + newpass + '&before=' + oldpass).then(
-    function (response) {
-      alert("Password changed !");
-    }
-);
 
-  
-}
-</script>
-<?php
-
-if(!empty($_POST['opass']) && !empty($_POST['npass'])){
-
-  $name = htmlspecialchars($_SESSION['username']);
-  $npass = htmlspecialchars($_POST['npass']);
-  $opass = htmlspecialchars($_POST['opass']);
-
-  echo("<script>changepass('$opass', '$npass', '$name')</script>");
-}
-
-?>
 
 
           </div>
