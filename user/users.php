@@ -97,7 +97,7 @@ window.location.href = '/reload.php';
 
 
 <div>
-<fieldset class="thechat"> 
+<fieldset id="chat" class="thechat"> 
 <pre style="color: #000;">
 
 
@@ -177,7 +177,10 @@ $text</span><br>");
   </script>
   <!-- Template Main JS File -->
   <script src="../assets/js/main.js"></script>
-
+<script>
+var chat = document.getElementById("chat");
+chat.scrollTop = chat.scrollHeight; // Défilement vers le bas
+</script>
 </body>
 
 </html> 
