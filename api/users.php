@@ -2,7 +2,7 @@
 
 include_once("../includes/db-config.php");
 header("Content-type: application/json");
-
+session_start();
 
 // CHECK IF IT IS THE GOOD APIKEY 
 $pdo = new PDO($DB_DSN, $DB_USER, $DB_PASS);
@@ -27,33 +27,37 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     }
 }
 
-else if($_SERVER['REQUEST_METHOD'] == 'PUT'){
+else if($_SERVER['REQUEST_METHOD'] == 'GET'){
 
-    $username = $_GET['username'];
-    $before = $_GET['before'];
-    $pass = $_GET['pass'];
-    if(!empty($pass) && !empty($username) && !empty($before)){
+    if(!empty($_GET['npass']) && isset($_GET['npass'])){
+
+        $pass = $_GET['npass'];
+
+
 
         $exists = $pdo -> prepare("SELECT * FROM users WHERE username=:username AND password=:before");
         $exists -> execute([
-            "username" => $username,
-            "before" => $before
+            "username" => $_SESSION['username'],
+            "before" => $_SESSION['password']
         ]);
         $resp = $exists -> fetch();
+        
         if(empty($resp)){
-            http_response_code(400);
+            http_response_code(401);
         }
+        
         else {
             $request = $pdo -> prepare("UPDATE users SET password=:pass WHERE username=:username");
             $request -> execute([
                 "pass" => $pass,
-                "username" => $username,
+                "username" => $_SESSION['username']
             ]);
             $request -> $fetch;
+        
         }
+        header("Location: /user/users.php");
     }
 }
-
 else {
     echo('{
         "error": "Supported methods: GET, PUT, POST, DELETE"
