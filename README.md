@@ -1,6 +1,6 @@
 <div align="center">
   
-# PHPChat 
+# PHPChat  
 
 https://brunkchat.000webhostapp.com/ 
  
