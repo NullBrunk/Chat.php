@@ -9,12 +9,14 @@ https://brunkchat.000webhostapp.com/
 ![GitHub top language](https://img.shields.io/github/languages/top/NullBrunk/PHPChat?style=for-the-badge)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/NullBrunk/PHPChat?style=for-the-badge)
 ![repo size](https://img.shields.io/github/repo-size/NullBrunk/PHPChat?style=for-the-badge)
- 
+
+![dynamicchat](https://github.com/NullBrunk/PHPChat/assets/125673909/5fc7a351-0a00-4e13-82a6-18de78b618ca)
 
 
-![webchat](https://user-images.githubusercontent.com/125673909/219771897-f0eb2551-932f-40db-8924-9d56f896d725.png)
+# Login / Signup
+![SignupLogin](https://github.com/NullBrunk/PHPChat/assets/125673909/fbab1288-5161-4b22-ab80-765cd07f8e16)
 
-# Chat
+
 ![image](https://user-images.githubusercontent.com/125673909/233087679-196e4f1e-285b-4e73-a52e-00074620cf6b.png)
 
 # Stats page 
@@ -28,10 +30,6 @@ https://brunkchat.000webhostapp.com/
 ![image](https://user-images.githubusercontent.com/125673909/233086729-9402d354-e00d-4fc4-81ca-e69d7126858c.png)
 
 
-# Login Page
-![image](https://user-images.githubusercontent.com/125673909/233081386-8e317971-8dc0-41bb-8992-d6d268aabf65.png)
-
-  
 </div>
 
 
