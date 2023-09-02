@@ -17,14 +17,11 @@ https://brunkchat.000webhostapp.com/
 ![SignupLogin](https://github.com/NullBrunk/PHPChat/assets/125673909/fbab1288-5161-4b22-ab80-765cd07f8e16)
 
 # Stats page 
-![image](https://user-images.githubusercontent.com/125673909/233104552-cc96740a-f7de-424c-8138-164b3c7a38b0.png)
+![image](https://github.com/NullBrunk/PHPChat/assets/125673909/5a893e6b-773b-4707-b018-0451eef32524)
+
 
 # About page
-![image](https://user-images.githubusercontent.com/125673909/233104696-55728e2e-e650-4276-8721-8256445193d2.png)
-
-
-# Signup page
-![image](https://user-images.githubusercontent.com/125673909/233086729-9402d354-e00d-4fc4-81ca-e69d7126858c.png)
+![image](https://github.com/NullBrunk/PHPChat/assets/125673909/3e59c72d-0ccd-4fbf-ad60-e1d4d3c2d5fa)
 
 
 </div>
