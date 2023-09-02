@@ -1,5 +1,5 @@
 <?php
-	$title = "About";
+	$title = "Statistics";
 	require_once "./app/components/header.php";
 ?>
 

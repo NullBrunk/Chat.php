@@ -61,4 +61,4 @@ CREATE TABLE chat(
   PRIMARY KEY(`id`)
 );
 ```
-Update the includes/db-config.php file, put your hostname your username and your password.
+Update the /app/includes/db.php file, put your hostname your username and your password.

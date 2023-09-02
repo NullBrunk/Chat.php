@@ -74,21 +74,37 @@ else if($_SERVER['REQUEST_METHOD'] === "PUT"){
 }
 
 
-
-/**
- * Update the user password 
- */
-else if($_SERVER['REQUEST_METHOD'] === "PATCH"){
-}
-
-
-
 /**
  * Delete the account of a user if he is allowed to
  */
 
 else if($_SERVER['REQUEST_METHOD'] === "DELETE") {
+    $data = json_decode(file_get_contents('php://input'), true);
+    $pass = hash("sha512", $data["password"]);
 
+
+    if(isset($data["password"])) {
+        $resp = DB::fetch("SELECT * FROM users WHERE username=:user AND password=:pass", [
+            "user" => $_SESSION["username"],
+            "pass" => $pass, 
+        ]);
+
+        if(empty($resp)) {
+            return http_response_code(401);
+        }
+        else {
+
+            DB::fetch("DELETE FROM chat WHERE author=:user", [
+                'user' => $_SESSION["username"],
+            ]);
+
+            DB::fetch("DELETE FROM users WHERE username=:user AND password=:pass", [
+                'user' => $_SESSION["username"],
+                'pass' => $pass,
+            ]);
+            return http_response_code(200);
+        }
+    }
 }
 
 else {
