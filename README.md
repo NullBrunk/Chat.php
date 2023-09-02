@@ -2,7 +2,7 @@
    
 # PHPChat  
 
-https://brunkchat.000webhostapp.com/ 
+[https://brunkchat.000webhostapp.com/ ](http://webchat-1.000webhostapp.com/user/)
  
 <br/>    
  
