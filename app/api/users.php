@@ -107,12 +107,4 @@ else if($_SERVER['REQUEST_METHOD'] === "DELETE") {
     }
 }
 
-else {
-    echo('{
-        "error": "Supported methods: GET, PUT, POST, DELETE"
-    }');
-}
-
-
-
 ?>
