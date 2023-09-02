@@ -172,7 +172,7 @@ if(!empty($_POST['toban']) and $_SESSION['isadmin'] == '1'){
 
   $toban = htmlspecialchars($_POST['toban']);
   echo("User have been banned !");
-  include_once("../includes/db-config.php");
+  require_once("../includes/db-config.php");
   $pdo = new PDO($DB_DSN, $DB_USER, $DB_PASS);
   
   $request = $pdo -> prepare("DELETE FROM users where username=:user");
