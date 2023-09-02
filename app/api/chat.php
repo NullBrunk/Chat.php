@@ -47,6 +47,13 @@ else if($_SERVER['REQUEST_METHOD'] === "DELETE"){
     
     $data = json_decode(file_get_contents('php://input'), true);
 
+    if(isset($data["value"]) && !empty($data["value"]) && isset($data["id"])) {
+        DB::fetch("UPDATE chat SET msg=:msg WHERE id=:id AND author=:author", [
+            "msg" => htmlspecialchars($data["value"]),
+            "id" => $data["id"],
+            "author" => $_SESSION["username"],
+        ]);
+    }
     
 }
 

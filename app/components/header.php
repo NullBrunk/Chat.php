@@ -35,7 +35,6 @@
 
                 <nav id="navbar" class="navbar">
                     <ul>
-                        <li><a class="nav-link scrollto" href="/index.php">Home</a></li>
                         <li><a class="nav-link scrollto" href="/about.php">About</a></li>
                         <li><a class="nav-link scrollto" href="/statistics.php">Statistics</a></li>
                         <li><a target="_blank" href="https://github.com/NullBrunk/PHPChat">Source</a></li>
