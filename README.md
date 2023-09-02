@@ -10,7 +10,8 @@ https://brunkchat.000webhostapp.com/
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/NullBrunk/PHPChat?style=for-the-badge)
 ![repo size](https://img.shields.io/github/repo-size/NullBrunk/PHPChat?style=for-the-badge)
 
-![dynamicchat](https://github.com/NullBrunk/PHPChat/assets/125673909/5fc7a351-0a00-4e13-82a6-18de78b618ca)
+![simplescreenrecorder-2023-09-02_16 11 39 (online-video-cutter com)](https://github.com/NullBrunk/PHPChat/assets/125673909/b14b05ed-f002-489e-b568-db3ab0a5cb9b)
+
 
 
 # Login / Signup
