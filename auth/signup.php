@@ -15,7 +15,7 @@
 			<div class="col-md-7 col-lg-5">
 				<div class="login-wrap p-4 p-md-5">
 					<div class="icon d-flex align-items-center justify-content-center">
-						<span class="fa fa-user-plus"></span>
+						<span class="bi bi-person-fill-add"></span>
 					</div>
 
 					<h3 class="text-center mb-4">Signup</h3>
@@ -44,20 +44,8 @@
 
 							
 						
-						<div class="form-group d-md-flex">
-							<div class="w-50">
-
-								<label class="checkbox-wrap checkbox-primary">Accept our terms
-									<input type="checkbox" checked>
-									<span class="checkmark"></span>
-								</label>
-										
-							</div>
-							
-							<div class="w-50 text-md-right">
+						<div class="text-right">
 								<a href="login.php">Login</a>
-							</div>
-
 						</div>
 					</div>
 				</div>

@@ -10,7 +10,7 @@
 
 		<div class="row justify-content-center">
             <div class="icon d-flex align-items-center justify-content-center">
-                <span class="fa fa-user"></span>
+                <span class="bi bi-user-fill"></span>
             </div>
 
             <h3 class="text-center mb-4">Welcome, <?= ucfirst($_SESSION["username"]) ?></h3>
