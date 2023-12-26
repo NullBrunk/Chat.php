@@ -11,7 +11,7 @@ https://webchat-1.000webhostapp.com/
 ![repo size](https://img.shields.io/github/repo-size/NullBrunk/PHPChat?style=for-the-badge)
 
 ![simplescreenrecorder-2023-09-02_16 11 39 (online-video-cutter com)](https://github.com/NullBrunk/PHPChat/assets/125673909/b14b05ed-f002-489e-b568-db3ab0a5cb9b)
-
+</div>
 
 
 # 🔐 Login / Signup
@@ -28,9 +28,6 @@ https://webchat-1.000webhostapp.com/
 # 🔎 About page
 ![image](https://github.com/NullBrunk/PHPChat/assets/125673909/3e59c72d-0ccd-4fbf-ad60-e1d4d3c2d5fa)
 
-
-
-</div>
 
 
 # ⚒️ Installation
