@@ -20,7 +20,6 @@ https://webchat-1.000webhostapp.com/
 # ⚙️ Settings page
 ![simplescreenrecorder-2023-09-02_16 38 36 (online-video-cutter com)](https://github.com/NullBrunk/PHPChat/assets/125673909/672b8596-6146-4404-b13e-da1b2b09927a)
 
-
 # 📈 Stats page 
 ![image](https://github.com/NullBrunk/PHPChat/assets/125673909/5a893e6b-773b-4707-b018-0451eef32524)
 
