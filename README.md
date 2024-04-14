@@ -30,7 +30,7 @@ https://webchat-1.000webhostapp.com/
 
 # ⚒️ Installation
 
-You can test it by using Docker:
+There is a Dockerfile here if you want to test the application locally:
 
 ```bash
 git clone https://github.com/NullBrunk/PHPChat
