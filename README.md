@@ -30,34 +30,17 @@ https://webchat-1.000webhostapp.com/
 
 # ⚒️ Installation
 
-go to /var/www/html OR /srv/http
+You can test it by using Docker:
+
 ```bash
 git clone https://github.com/NullBrunk/PHPChat
-mv PHPChat/* .
-rm -r Chat
+cd PHPChat
+
+# Build the docker image
+docker build -t phpapp .
+
+# And launch it
+docker run -it -p 80:80 phpapp
 ```
 
-Copy/paste this on MariaDB:
 
-```sql
-CREATE DATABASE webchat;
-USE webchat;
-
-CREATE TABLE users(
-  `id` INT AUTO_INCREMENT,
-  `username` VARCHAR(30) NOT NULL UNIQUE,
-  `password` VARCHAR(130) NOT NULL,
-  `isadmin` BOOLEAN DEFAULT 0,
-  
-  PRIMARY KEY(`id`)
-);
-
-CREATE TABLE chat(
-  `id` INT AUTO_INCREMENT,
-  `author` VARCHAR(30) NOT NULL,
-  `msg` TEXT NOT NULL,
-  
-  PRIMARY KEY(`id`)
-);
-```
-Update the /app/includes/db.php file, put your hostname your username and your password.
