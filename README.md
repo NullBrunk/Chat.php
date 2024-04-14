@@ -37,10 +37,10 @@ git clone https://github.com/NullBrunk/PHPChat
 cd PHPChat
 
 # Build the docker image
-docker build -t phpapp .
+docker build -t phpchat .
 
 # And launch it
-docker run -it -p 80:80 phpapp
+docker run -it -p 80:80 phpchat
 ```
 
 
