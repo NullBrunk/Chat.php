@@ -11,6 +11,9 @@ RUN rm Dockerfile docker-compose.yml README.md
 
 # Move the sql schema file
 RUN mv schema.sql /
+# Move the wait for mysql script
+RUN mv wait-for-mysql.sh /
+
 # Configure PHP needed extensions
 RUN cp /usr/local/etc/php/php.ini-production /usr/local/etc/php/php.ini
 RUN docker-php-ext-install pdo_mysql
@@ -22,14 +25,10 @@ RUN apt update && apt install mariadb-client -y
 EXPOSE 80
 
 # Create an init script and run it
-
-# Ensure that the MySQL container is started
-RUN echo "sleep 20" > /init.sh 
-# Do the "migration"
-RUN echo "mariadb -hmysql -uroot -proot < /schema.sql" >> /init.sh 
-# Launch the HTTP server
+RUN echo "/wait-for-mysql.sh" > /init.sh 
 RUN echo "php -S 0.0.0.0:80" >> /init.sh
 
+RUN chmod +x /wait-for-mysql.sh
 RUN chmod +x /init.sh
 
 CMD ["/init.sh"]
