@@ -22,8 +22,14 @@ RUN apt update && apt install mariadb-client -y
 EXPOSE 80
 
 # Create an init script and run it
-# Sleep 15 sec to wait for the mysql db to start
-RUN echo "sleep 20 && mariadb -hmysql -uroot -proot < /schema.sql && php -S 0.0.0.0:80" > /init.sh
+
+# Ensure that the MySQL container is started
+RUN echo "sleep 20" > /init.sh 
+# Do the "migration"
+RUN echo "mariadb -hmysql -uroot -proot < /schema.sql" >> /init.sh 
+# Launch the HTTP server
+RUN echo "php -S 0.0.0.0:80" >> /init.sh
+
 RUN chmod +x /init.sh
 
 CMD ["/init.sh"]
