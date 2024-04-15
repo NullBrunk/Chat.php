@@ -13,16 +13,11 @@
 
 # ⚒️ Installation
 
-I created a Dockerfile file if you want to easely test this app, so just type those commands:
+I created a Dockerfile as well as a docker-compose file if you want to easely test this app, so just type these commands:
 
 ```bash
 git clone https://github.com/NullBrunk/PHPChat && cd PHPChat
-
-# Build the docker image
-docker build -t phpchat .
-
-# And launch it
-docker run -it -p 80:80 phpchat
+docker-compose up
 ```
 
 # 📚 Deep overview
