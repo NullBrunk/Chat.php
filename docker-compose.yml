@@ -12,7 +12,7 @@ services:
       - chat
 
   mysql:
-    image: mysql
+    image: mariadb:11
     networks:
       - chat
     environment:
