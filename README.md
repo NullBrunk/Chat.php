@@ -36,7 +36,6 @@ docker run -it -p 80:80 phpchat
 ### 📈 Stats page 
 ![image](https://github.com/NullBrunk/PHPChat/assets/125673909/5a893e6b-773b-4707-b018-0451eef32524)
 
-
 ### 🔎 About page
 ![image](https://github.com/NullBrunk/PHPChat/assets/125673909/3e59c72d-0ccd-4fbf-ad60-e1d4d3c2d5fa)
 
