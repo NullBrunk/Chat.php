@@ -1,6 +1,3 @@
-CREATE USER 'php'@'localhost' IDENTIFIED BY 'change_this_password';
-GRANT ALL ON webchat.* TO 'php'@'localhost';
-
 CREATE DATABASE webchat;
 USE webchat;
 

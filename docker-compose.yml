@@ -1,0 +1,22 @@
+version: "3"
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    depends_on:
+      - mysql
+    links:
+      - mysql
+    networks:
+      - chat
+
+  mysql:
+    image: mysql
+    networks:
+      - chat
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+
+networks:
+  chat:
