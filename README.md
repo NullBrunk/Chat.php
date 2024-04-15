@@ -17,7 +17,7 @@ I created a Dockerfile as well as a docker-compose file if you want to easely te
 
 ```bash
 git clone https://github.com/NullBrunk/PHPChat && cd PHPChat
-docker-compose up
+docker-compose up --build
 ```
 
 # 📚 Deep overview
