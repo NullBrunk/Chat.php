@@ -8,13 +8,13 @@
 <script src="/assets/js/auth.js"></script>
 <link href="style.css" rel="stylesheet">
 
-<section class="ftco-section" style='padding-top: 9em;'>
+<section class="ftco-section" style='padding-top: 9em;' data-aos="zoom-out" data-aos-delay="200">
 	<div class="container">
 
 		<div class="row justify-content-center">
 			<div class="col-md-7 col-lg-5">
 				<div class="login-wrap p-4 p-md-5">
-					<div class="icon d-flex align-items-center justify-content-center">
+					<div data-aos="zoom-in" data-aos-delay="200" class="icon d-flex align-items-center justify-content-center">
 						<span class="bi bi-person-fill"></span>
 					</div>
 
@@ -35,7 +35,7 @@
 							<input type="password" id="pass" name="pass" class="form-control rounded-left" placeholder="Password" required>
 						</div>
 						
-						<div class="form-group">
+						<div cdata-aos="fade-up" data-aos-delay="500" lass="form-group">
 							<button type="submit" id="login" class="form-control btn btn-primary rounded submit px-3">Login</button>
 						</div>
 

@@ -3,9 +3,7 @@ document.getElementById("delete").addEventListener('click', () => {
 
     fetch("/app/api/users.php", {
         method: "DELETE",
-        body: JSON.stringify({
-            password: val
-        })
+        body: JSON.stringify({ password: val })
     }).then((resp) => {
         if(resp.status === 401) {
             alert("Invalid password");

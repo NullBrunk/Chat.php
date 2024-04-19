@@ -8,13 +8,13 @@
 <script src="/assets/js/auth.js"></script>
 <link href="style.css" rel="stylesheet">
 
-<section class="ftco-section" style='padding-top: 9em;'>
+<section class="ftco-section" style='padding-top: 9em;'  data-aos="zoom-out" data-aos-delay="200">
 	<div class="container">
 
 		<div class="row justify-content-center">
 			<div class="col-md-7 col-lg-5">
 				<div class="login-wrap p-4 p-md-5">
-					<div class="icon d-flex align-items-center justify-content-center">
+					<div data-aos="zoom-in" data-aos-delay="200"  class="icon d-flex align-items-center justify-content-center">
 						<span class="bi bi-person-fill-add"></span>
 					</div>
 
