@@ -9,8 +9,7 @@
 ![repo size](https://img.shields.io/github/repo-size/NullBrunk/PHPChat?style=for-the-badge)
 
 
-
-https://github.com/NullBrunk/PHPChat/assets/125673909/57a08d7c-36eb-4879-a80d-c4a467fbe4b5
+![phpchat](https://github.com/NullBrunk/PHPChat/assets/125673909/eabe391b-88f3-4b9c-9545-975cdaee98d1)
 
 </div>
 
@@ -25,14 +24,14 @@ docker-compose up --build
 
 # 📚 Deep overview
 
+#### 💬 Chat
+https://github.com/NullBrunk/PHPChat/assets/125673909/57a08d7c-36eb-4879-a80d-c4a467fbe4b5
+
 ### 🔐 Login / Signup
 https://github.com/NullBrunk/PHPChat/assets/125673909/d5de75cd-9410-4fae-b0c1-2001a0a46c63
 
-
 ### ⚙️ Settings page
 https://github.com/NullBrunk/PHPChat/assets/125673909/8b722d85-87a6-4c55-b98c-7414ab3b9157
-
-
 
 ### 📈 Stats page 
 ![image](https://github.com/NullBrunk/PHPChat/assets/125673909/5a893e6b-773b-4707-b018-0451eef32524)
