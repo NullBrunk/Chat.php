@@ -24,11 +24,11 @@ docker-compose up --build
 
 # 📚 Deep overview
 
-#### 💬 Chat
-https://github.com/NullBrunk/PHPChat/assets/125673909/57a08d7c-36eb-4879-a80d-c4a467fbe4b5
-
 ### 🔐 Login / Signup
 https://github.com/NullBrunk/PHPChat/assets/125673909/d5de75cd-9410-4fae-b0c1-2001a0a46c63
+
+#### 💬 Chat
+https://github.com/NullBrunk/PHPChat/assets/125673909/57a08d7c-36eb-4879-a80d-c4a467fbe4b5
 
 ### ⚙️ Settings page
 https://github.com/NullBrunk/PHPChat/assets/125673909/8b722d85-87a6-4c55-b98c-7414ab3b9157
