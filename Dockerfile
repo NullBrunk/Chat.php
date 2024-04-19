@@ -7,7 +7,7 @@ WORKDIR /var/www/html/
 COPY . .
 
 # Remove unnecessary files from the container
-RUN rm Dockerfile docker-compose.yml README.md 
+RUN rm -rf .git Dockerfile docker-compose.yml README.md 
 
 
 RUN mv schema.sql /
