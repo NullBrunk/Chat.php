@@ -10,7 +10,7 @@
             <div class="col-lg-6 d-flex flex-column justify-content-center">
     
                 <h1 data-aos="fade-up">A PHP WebChat </h1>
-                <h2 data-aos="fade-up" data-aos-delay="400">A simple PHP WebChat that use's an internal API to manage messages/users, called using AJAX request threw JavaScript .</h2>
+                <h2 data-aos="fade-up" data-aos-delay="400">A simple PHP WebChat that use's an internal API to manage messages/users, called using AJAX request through JavaScript .</h2>
                 
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
