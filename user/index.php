@@ -16,7 +16,7 @@
 <script src="/assets/js/chat.js"></script>
 
 <main class="chat">
-    <fieldset id="chat" class="thechat" data-aos="fade-down" data-aos-delay="200"> 
+    <fieldset id="chat" class="thechat"> 
 
         <?php foreach($messages as $msg): ?>
 
@@ -53,7 +53,7 @@
               
     </fieldset>
 
-    <form method="post" action="/app/api/chat.php" data-aos="fade-down" data-aos-delay="200">
+    <form method="post" action="/app/api/chat.php">
         <p  class="chat-content d-flex justify-content-between">
             <input type="text" name="text" class="chatmenu" placeholder="Send a message" autofocus>
             <button style="margin-right: 6px" class="send-msg btn-purple" type="submit"><i class="bi bi-send-fill"></i></button>
