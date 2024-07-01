@@ -17,7 +17,7 @@
 # ⚒️ Installation
 
 > [!TIP]
-> There is a Dockerfile as well as a docker-compose file if you want to easely test this app:
+> **There is a Dockerfile as well as a docker-compose file if you want to easely test this app.**
 
 ```bash
 git clone https://github.com/NullBrunk/PHPChat && cd PHPChat
