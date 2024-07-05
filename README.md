@@ -28,23 +28,19 @@ docker-compose up --build
 
 ### 🔐 Login / Signup
 
-> [!NOTE]
-> The login/signup is done with JS (AJAX requests) + the PHP API, it's therefore dynamic 
+The login/signup is done with JS (AJAX requests) + the PHP API, it's therefore dynamic 
 
 https://github.com/NullBrunk/PHPChat/assets/125673909/d5de75cd-9410-4fae-b0c1-2001a0a46c63
 
 #### 💬 Chat
 
-> [!NOTE]
-> The delete and update functions are done witj AJAX requests + the PHP API, it's also dynamic
+The delete and update functions are done witj AJAX requests + the PHP API, it's also dynamic
 
 https://github.com/NullBrunk/PHPChat/assets/125673909/57a08d7c-36eb-4879-a80d-c4a467fbe4b5
 
 ### ⚙️ Settings page
 
-
-> [!NOTE]
-> The settings page allows to delete your account, the password validation is also dynamic
+The settings page allows to delete your account, the password validation is also dynamic
 
 https://github.com/NullBrunk/PHPChat/assets/125673909/8b722d85-87a6-4c55-b98c-7414ab3b9157
 
