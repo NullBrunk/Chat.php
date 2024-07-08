@@ -1,5 +1,8 @@
 FROM php:8.2-cli
 
+LABEL version=1.0.1 
+LABEL app=Chat.php
+
 # Set the working directory to /var/www/html
 WORKDIR /var/www/html/
 
