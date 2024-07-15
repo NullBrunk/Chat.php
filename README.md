@@ -1,7 +1,17 @@
 <div align="center">
    
 # Chat.php  
-  
+
+<div>
+ <img width="54" src="https://github.com/user-attachments/assets/59de89f6-6cc0-4ebc-8208-00f8db39d323">
+ 
+ <img width="54" src="https://github.com/user-attachments/assets/0fbab25d-8122-4913-b780-9757d9fad54e">
+
+ <img width="54" src="https://github.com/user-attachments/assets/200b7a6d-9ff5-49e6-874e-065f86636e1e">
+ 
+ <img width="54" src="https://github.com/user-attachments/assets/a2554b15-1528-4e29-8769-1413366eba77">
+</div>
+
 <br/> 
 
 ![GitHub top language](https://img.shields.io/github/languages/top/NullBrunk/Chat.php?style=for-the-badge)
