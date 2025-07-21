@@ -32,7 +32,8 @@
 > There is a Dockerfile as well as a docker-compose file if you want to easely test this app.
 
 ```bash
-git clone https://github.com/NullBrunk/Chat.php && cd Chat.php
+git clone https://github.com/NullBrunk/Chat.php
+cd Chat.php
 docker-compose up --build
 ```
 
